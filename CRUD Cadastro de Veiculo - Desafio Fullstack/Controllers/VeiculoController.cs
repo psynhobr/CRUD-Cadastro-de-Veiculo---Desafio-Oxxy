@@ -106,7 +106,7 @@ namespace CRUD_Cadastro_de_Veiculo___Desafio_Fullstack.Controllers
                 {
                     return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
                 }
-                veiculo.Placa = model.Nome;
+                veiculo.Placa = model.Placa;
                 veiculo.Renavam = model.Renavam;
                 veiculo.Nome = model.Nome;
                 veiculo.Cpf = model.Cpf;
