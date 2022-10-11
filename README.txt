@@ -1,0 +1,14 @@
+CREATE DATABASE CRUD
+GO
+USE CRUD
+GO
+
+CREATE TABLE Veiculos
+(
+    Id INT IDENTITY PRIMARY KEY,
+    Placa VARCHAR (8),
+    Renavan VARCHAR (11),
+    Nome VARCHAR (50),
+    CPF VARCHAR (11),
+    imagem VARCHAR (5000)
+)
